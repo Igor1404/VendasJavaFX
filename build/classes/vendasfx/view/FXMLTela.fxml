@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="anchorPane" prefHeight="351.0002999999924" prefWidth="599.0" visible="true" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="vendasfx.controller.FXMLTelaController">
+  <children>
+    <VBox id="VBox" prefHeight="351.0002999999924" prefWidth="599.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <MenuBar>
+          <menus>
+            <Menu mnemonicParsing="false" text="Cadastros">
+              <items>
+                <MenuItem id="MenuItemCadastro" mnemonicParsing="false" text="Clientes" />
+                <MenuItem id="MenuItemCat" mnemonicParsing="false" text="Categorias" />
+                <MenuItem id="MenuItemProd" mnemonicParsing="false" text="Produtos" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Processos">
+              <items>
+                <MenuItem id="MenuItemProcessVend" mnemonicParsing="false" text="Vendas" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Gráficos">
+              <items>
+                <MenuItem id="MenuItemVendPorMes" mnemonicParsing="false" text="Vendas por mês" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Relatórios">
+              <items>
+                <MenuItem id="MenuItemQtdProd" mnemonicParsing="false" text="Quantidades de produtos" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>
